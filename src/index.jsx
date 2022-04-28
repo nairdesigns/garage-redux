@@ -13,7 +13,7 @@ import CarsShow from "./containers/cars_show";
 import CarsNew from "./containers/cars_new";
 import "../assets/stylesheets/application.scss";
 
-// import carsReducer from "./reducers/cars_reducer.js";
+import carsReducer from "./reducers/cars_reducer";
 
 const history = createBrowserHistory();
 
