@@ -79,5 +79,5 @@ function mapStateToProps(state) {
 }
 
 export default reduxForm({
-  form: "newCarForm", // a unique identifierdd
+  form: "newCarForm", // a unique identified
 })(connect(mapStateToProps, { addCar })(CarsNew));
