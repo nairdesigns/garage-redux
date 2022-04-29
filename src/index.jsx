@@ -40,8 +40,8 @@ ReactDOM.render(
     <Router history={history}>
       <div className="view-container">
         <Switch>
-          <Route path="/" exact component={CarsIndex} />
-          <Route path="/cars/new" exact component={CarsNew} />
+          <Route exact path="/" render={() => <CarsIndex />} />
+          <Route exact path="/cars/new" render={() => <CarsNew />} />
           <Route path="/cars/:id" component={CarsShow} />
         </Switch>
       </div>
